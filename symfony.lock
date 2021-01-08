@@ -41,6 +41,9 @@
     "friendsofphp/proxy-manager-lts": {
         "version": "v1.0.2"
     },
+    "illuminate/bus": {
+        "version": "v8.21.0"
+    },
     "illuminate/collections": {
         "version": "v8.21.0"
     },
@@ -53,7 +56,13 @@
     "illuminate/database": {
         "version": "v8.21.0"
     },
+    "illuminate/events": {
+        "version": "v8.21.0"
+    },
     "illuminate/macroable": {
+        "version": "v8.21.0"
+    },
+    "illuminate/pipeline": {
         "version": "v8.21.0"
     },
     "illuminate/support": {
@@ -82,6 +91,9 @@
     },
     "pimple/pimple": {
         "version": "v3.3.1"
+    },
+    "predis/predis": {
+        "version": "v1.1.6"
     },
     "psr/cache": {
         "version": "1.0.1"
@@ -258,6 +270,19 @@
     },
     "symfony/translation-contracts": {
         "version": "v2.3.0"
+    },
+    "symfony/validator": {
+        "version": "4.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "4.3",
+            "ref": "d902da3e4952f18d3bf05aab29512eb61cabd869"
+        },
+        "files": [
+            "config/packages/test/validator.yaml",
+            "config/packages/validator.yaml"
+        ]
     },
     "symfony/var-dumper": {
         "version": "v5.2.1"
